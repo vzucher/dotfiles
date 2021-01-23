@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	editor = subl -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
@@ -47,5 +47,5 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = vzucher@gmail.com
-	name = vitor zucher
+	email = n
+	name = n
